@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: jicofo
-          image: jitsi/jicofo:stable-8719
+          image: jitsi/jicofo:jicofo-1.0-1048-1
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_SERVER
@@ -56,7 +56,7 @@ spec:
             - name: JVB_BREWERY_MUC
               value: jvbbrewery
         - name: prosody
-          image: jitsi/prosody:stable-8719
+          image: jitsi/prosody:prosody-0.12.3
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_DOMAIN
@@ -91,7 +91,7 @@ spec:
             - name: JVB_TCP_HARVESTER_DISABLED
               value: "true"
         - name: web
-          image: jitsi/web:stable-8719
+          image: jitsi/web:web-1.0.7507-1
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_SERVER
@@ -113,7 +113,7 @@ spec:
             - name: JVB_TCP_HARVESTER_DISABLED
               value: "true"
         - name: jvb
-          image: jitsi/jvb:stable-8719
+          image: jitsi/jvb:jvb-2.3-41-ga8d8a786-1
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_SERVER
