@@ -30,15 +30,15 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_SERVER
-              value: localhost
+              value: meet.sarah.dev
             - name: XMPP_DOMAIN
-              value: meet.jitsi
+              value: meet.sarah.dev
             - name: XMPP_AUTH_DOMAIN
               value: auth.meet.jitsi
             - name: XMPP_MUC_DOMAIN
-              value: muc.meet.jitsi
+              value: muc.meet.sarah.dev
             - name: XMPP_INTERNAL_MUC_DOMAIN
-              value: internal-muc.meet.jitsi
+              value: internal-muc.meet.sarah.dev
             - name: JICOFO_COMPONENT_SECRET
               valueFrom:
                 secretKeyRef:
