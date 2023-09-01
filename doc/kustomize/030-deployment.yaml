@@ -117,9 +117,9 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_SERVER
-              value: localhost
+              value: 192.168.126.11
             - name: DOCKER_HOST_ADDRESS
-              value: localhost
+              value: 192.168.126.11
             - name: XMPP_DOMAIN
               value: meet.jitsi
             - name: XMPP_AUTH_DOMAIN
