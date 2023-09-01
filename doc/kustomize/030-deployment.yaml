@@ -34,7 +34,7 @@ spec:
             - name: XMPP_DOMAIN
               value: 18.234.78.154
             - name: XMPP_AUTH_DOMAIN
-              value: localhost
+              value: 18.234.78.154
             - name: XMPP_MUC_DOMAIN
               value: 18.234.78.154
             - name: XMPP_INTERNAL_MUC_DOMAIN
