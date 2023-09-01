@@ -30,13 +30,13 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_SERVER
-              value: localhost
+              value: 18.234.78.154
             - name: XMPP_DOMAIN
-              value: localhost
+              value: 18.234.78.154
             - name: XMPP_AUTH_DOMAIN
               value: localhost
             - name: XMPP_MUC_DOMAIN
-              value: localhost
+              value: 18.234.78.154
             - name: XMPP_INTERNAL_MUC_DOMAIN
               value: localhost
             - name: JICOFO_COMPONENT_SECRET
@@ -95,7 +95,7 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_SERVER
-              value: 0.0.0.0
+              value: 18.234.78.154
             - name: JICOFO_AUTH_USER
               value: focus
             - name: XMPP_DOMAIN
@@ -105,7 +105,7 @@ spec:
             - name: XMPP_INTERNAL_MUC_DOMAIN
               value: internal-muc.meet.jitsi
             - name: XMPP_BOSH_URL_BASE
-              value: http://0.0.0.0:5280
+              value: http://18.234.78.154:5280
             - name: XMPP_MUC_DOMAIN
               value: muc.meet.jitsi
             - name: TZ
@@ -117,9 +117,9 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_SERVER
-              value: 0.0.0.0
+              value: 18.234.78.154
             - name: DOCKER_HOST_ADDRESS
-              value: 0.0.0.0
+              value: 18.234.78.154
             - name: XMPP_DOMAIN
               value: meet.jitsi
             - name: XMPP_AUTH_DOMAIN
