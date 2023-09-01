@@ -95,7 +95,7 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_SERVER
-              value: 192.168.126.11
+              value: 192.168.130.11
             - name: JICOFO_AUTH_USER
               value: focus
             - name: XMPP_DOMAIN
@@ -117,9 +117,9 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: XMPP_SERVER
-              value: 192.168.126.11
+              value: 192.168.130.11
             - name: DOCKER_HOST_ADDRESS
-              value: 192.168.126.11
+              value: 192.168.130.11
             - name: XMPP_DOMAIN
               value: meet.jitsi
             - name: XMPP_AUTH_DOMAIN
